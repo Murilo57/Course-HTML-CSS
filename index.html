@@ -1,32 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-x<head>
+<head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="UTF-8">
   <title>Tom's Jazz School</title>
+  <link rel="preconet" href="http://fonts.googleapis.com/">
+  <link rel="preconnect" href="http://fonts.gstatic.com" crossorigin="">
+  <link rel="stylesheet" href="index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap"  rel="stylesheet">
 </head>
 <body>
   <header>
     <img src="img/logo.svg" alt="Tom's Jazz School">
-    <nav>
+    <nav class="mt-1 mx-auto">
       <a href="#">Inicio</a>
       <a href="#">Cursos</a>
       <a href="#">Eventos</a>
       <a href="#">Contatos</a>
     </nav>
-    <a href="#" class="button">Se inscreva</a>
+    <a href="#" class="button mt-1 mb-1 mx-auto">Se inscreva</a>
   </header>
   <main>
-    <section>
+    <section class="hero-section">
       <img src="img/hero-img.svg" alt="Banda de jazz">
       <div>
-        <h1>Crie algo <span>impactante</span> com música</h1>
+        <h1>Crie algo <span class="text-primary">impactante</span> com música</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscining elit, sed do eiusmod temport incidunt dolor magna aliquia</p>
         <a href="#" class="button">Comece agora</a>
       </div>
     </section>
-    <section>
-      <div class="cards">
+    <section class="hero-section">
+      <!-- Cards of icons-->
+    <div class="cards">
       <article>
         <img src="img/piano.png" alt="icone de teclas de piano">
         <strong>Piano popular</strong>
@@ -57,10 +62,28 @@ x<head>
   </a>
 </article>
 </div>
-  <h2> <span>varios</span> outros!</h2>
+  <h2> <span class="text-primary">varios</span> outros!</h2>
   <a href="#">Conhecer cursos</a>
 
     </section>
   </main>
+  <!-- Rodapé -->
+  <footer>
+    <div>
+    <img src="img/logo.svg" alt="Tom's Jazz School">
+    <p> Lorem ipsum dolor site amet, consectetur adipiscing elit, sed do eiusmod temport incididunt u magna aliquia. </p>
+  </div>
+  <nav>
+    <a href="#">Inicio</a>
+    <a href="#">Cursos</a>
+    <a href="#">Eventos</a>
+    <a href="#">Contatos</a>
+  </nav>
+  <form>
+    <label for="email">Receba materiais gratuitos no seu email</label>
+    <input type="text" name="email" id="email" placeholder="Digite o seu e-mail">
+  </form>
+  </footer>
+
 </body>
 </html>
