@@ -9,30 +9,34 @@
   <link rel="stylesheet" href="index.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap"  rel="stylesheet">
 </head>
-<body>
+<body>  
   <header>
+    <div class="container">
     <img src="img/logo.svg" alt="Tom's Jazz School">
-    <nav class="mt-1 mx-auto">
+    <nav>
       <a href="#">Inicio</a>
       <a href="#">Cursos</a>
       <a href="#">Eventos</a>
       <a href="#">Contatos</a>
     </nav>
     <a href="#" class="button mt-1 mb-1 mx-auto">Se inscreva</a>
+  </div>
   </header>
   <main>
     <section class="hero-section">
+      <div class="container row-reverse">
       <img src="img/hero-img.svg" alt="Banda de jazz">
       <div>
-        <h1>Crie algo <span class="text-primary">impactante</span> com música</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscining elit, sed do eiusmod temport incidunt dolor magna aliquia</p>
+        <h1 class="mt-2">Crie algo <span class="text-primary decoration">impactante</span> com música</h1>
+        <p class="mt-2 mb-2">Lorem ipsum dolor sit amet, consectetur adipiscining elit, sed do eiusmod temport incidunt dolor magna aliquia</p>
         <a href="#" class="button">Comece agora</a>
       </div>
+    </div>      
     </section>
     <section class="hero-section">
       <!-- Cards of icons-->
     <div class="cards">
-      <article>
+      <article class="card">
         <img src="img/piano.png" alt="icone de teclas de piano">
         <strong>Piano popular</strong>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, dolore magna aliquia</p>
@@ -40,6 +44,7 @@
           <img src="img/arrow-right.svg" alt="Ir para pagina do curso">
         </a>
       </article>
+      <article class="card">
       <img src="img/clef.png" alt="icone de clave de sol">
       <strong>Piano popular</strong>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, dolore magna aliquia</p>
@@ -47,13 +52,15 @@
         <img src="img/arrow-right.svg" alt="Ir para pagina do curso">
       </a>
     </article>
+    <article class="card">
     <img src="img/sax.png" alt="icone de saxofone">
     <strong>Piano popular</strong>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, dolore magna aliquia</p>
     <a href="#">
       <img src="img/arrow-right.svg" alt="Ir para pagina do curso">
-    </a>
+    </a>    
   </article>
+  <article class="card">
   <img src="img/drums.png" alt="icone de bateria">
   <strong>Piano popular</strong>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, dolore magna aliquia</p>
@@ -62,27 +69,30 @@
   </a>
 </article>
 </div>
-  <h2> <span class="text-primary">varios</span> outros!</h2>
-  <a href="#">Conhecer cursos</a>
+  <h2 class="text-center"> <span class="text-primary">varios</span> outros!</h2>
+  <a href="#" class="button mt-2 mx-auto mx-auto">Conhecer cursos</a>
 
     </section>
   </main>
   <!-- Rodapé -->
   <footer>
-    <div>
-    <img src="img/logo.svg" alt="Tom's Jazz School">
-    <p> Lorem ipsum dolor site amet, consectetur adipiscing elit, sed do eiusmod temport incididunt u magna aliquia. </p>
+    <div class="container">
+    <div class="about-column">
+    <img src="img/logo.svg" alt="Tom's Jazz School" class="mt-1 mb-1">
+    <p class="mb-2"> Lorem ipsum dolor site amet, consectetur adipiscing elit, sed do eiusmod temport incididunt u magna aliquia. </p>
   </div>
-  <nav>
+  <nav class="mb-2">
     <a href="#">Inicio</a>
     <a href="#">Cursos</a>
     <a href="#">Eventos</a>
     <a href="#">Contatos</a>
   </nav>
-  <form>
-    <label for="email">Receba materiais gratuitos no seu email</label>
-    <input type="text" name="email" id="email" placeholder="Digite o seu e-mail">
+  <form class="newsletter-form">
+    <label for="email" class="mb-1">Receba materiais gratuitos no seu email</label>
+    <input type="text" name="email" id="email" class="mb-1" placeholder="Digite o seu e-mail">
+    <button class="button mb-2">Quero receber</button>
   </form>
+   </div>
   </footer>
 
 </body>
